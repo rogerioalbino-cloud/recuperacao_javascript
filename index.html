@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lista de Tarefas</title>
+
+    <!-- Conexão com o CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+
+        <h1>Lista de Tarefas</h1>
+
+        <!-- Formulário -->
+        <section class="formulario">
+
+            <input
+                type="text"
+                id="tarefa"
+                placeholder="Digite a tarefa"
+            >
+
+            <select id="prioridade">
+                <option value="">Selecione a prioridade</option>
+                <option value="Alta">Alta</option>
+                <option value="Média">Média</option>
+                <option value="Baixa">Baixa</option>
+            </select>
+
+            <button id="botaoAdicionar">
+                Adicionar
+            </button>
+
+            <!-- Área de erro -->
+            <p id="mensagemErro"></p>
+
+        </section>
+
+        <!-- Lista -->
+        <section>
+            <ul id="listaTarefas"></ul>
+        </section>
+
+    </main>
+
+    <!-- JavaScript no final para carregar o HTML primeiro -->
+    <script src="script.js"></script>
+
+</body>
+</html>
