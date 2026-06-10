@@ -14,3 +14,7 @@ Se os dados estiverem corretos, a tarefa é adicionada na lista exibida na tela.
 1. Baixe os arquivos do projeto.
 2. Abra a pasta no VS Code.
 3. Abra o arquivo index.html no navegador.
+
+## Fontes
+https://developer.mozilla.org/pt-BR/
+Vi alguns videos no youtube também para ajudar
